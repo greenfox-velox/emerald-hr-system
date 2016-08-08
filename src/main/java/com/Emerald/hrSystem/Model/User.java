@@ -1,13 +1,27 @@
 package com.Emerald.hrSystem.Model;
 
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.validation.constraints.Size;
+import javax.validation.constraints.NotNull;
+
 public class User {
   private int id;
+
+  @NotNull
+  @NotEmpty (message = "Please enter your username")
   private String userName;
+
+  @Email
+  @NotEmpty (message = "Please enter your email")
   private String email;
+
+  @NotEmpty (message = "Please enter your username")
+  @Size (min = 6, max = 15, message = "Your password must be between 6 and 15 characters")
   private String password;
 
   public User() {}
-
 
   public User(String userName, String password) {
     this.userName = userName;

@@ -4,11 +4,12 @@ import com.Emerald.hrSystem.Model.User;
 import java.util.ArrayList;
 
   public class Database {
-    public Database() {
+
+      public Database() {
       fillUsers();
     }
 
-    ArrayList<User> users = new ArrayList<>();
+    public ArrayList<User> users = new ArrayList<>();
     int id = 3;
 
     public void fillUsers() {
@@ -41,5 +42,18 @@ import java.util.ArrayList;
     public Boolean passwordCheck(int item, User user) {
       return users.get(item).getPassword().equals(user.getPassword());
     }
-  }
+
+    public ArrayList<User> getUsers(){
+        return users;
+    }
+
+    public boolean isUserNameFree(String userName) {
+        for (User user : users) {
+            if (user.getUserName().equals(userName)) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
 
