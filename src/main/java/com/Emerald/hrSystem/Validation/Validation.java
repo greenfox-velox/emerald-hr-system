@@ -1,4 +1,5 @@
 package com.Emerald.hrSystem.Validation;
+import com.Emerald.hrSystem.Database;
 import com.Emerald.hrSystem.Model.User;
 
 public class Validation {
