@@ -1,13 +1,18 @@
 package com.Emerald.hrSystem.Model;
 
-/**
- * Created by pocok on 8/4/16.
- */
 public class User {
   private int id;
   private String userName;
   private String email;
   private String password;
+
+  public User() {}
+
+
+  public User(String userName, String password) {
+    this.userName = userName;
+    this.password = password;
+  }
 
   public User(int id, String userName, String email, String password) {
     this.id = id;
