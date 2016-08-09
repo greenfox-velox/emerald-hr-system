@@ -24,28 +24,12 @@ import java.util.ArrayList;
       return newUser;
     }
 
-    public String loginUser(User loginUser) {
-      for (int item = 0; item < users.size(); item++) {
-        if (userNameCheck(item, loginUser) && passwordCheck(item, loginUser)) {
-          return "accept";
-        } else if (userNameCheck(item, loginUser) && !(passwordCheck(item, loginUser))) {
-          return "rejectpassword";
-        }
-      }
-      return "rejectusername";
+    public Boolean userNameCheck( User listUser, User user) {
+      return listUser.getUserName().equals(user.getUserName());
     }
 
-    public Boolean userNameCheck(int item, User user) {
-      return users.get(item).getUserName().equals(user.getUserName());
-    }
-
-    public Boolean passwordCheck(int item, User user) {
-      return users.get(item).getPassword().equals(user.getPassword());
-    }
-
-
-    public ArrayList<User> getUsers(){
-        return users;
+    public Boolean passwordCheck( User listUser, User user) {
+      return listUser.getPassword().equals(user.getPassword());
     }
 
     public boolean isUserNameFree(User userName) {
