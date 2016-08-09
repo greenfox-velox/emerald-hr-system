@@ -2,6 +2,7 @@ package com.Emerald.hrSystem;
 
 import com.Emerald.hrSystem.Model.User;
 import com.Emerald.hrSystem.Validation.Validation;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -11,6 +12,11 @@ import javax.validation.Valid;
 
 @org.springframework.stereotype.Controller
 public class Controller {
+
+    AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+    ctx.register(config.DatabaseConfig.class);
+    ctx.refresh();
+    dao.IUserDao udao = ctx.getBean(dao.IUserDao.class);
 
     Validation validation = new Validation();
     Database userDb = new Database();

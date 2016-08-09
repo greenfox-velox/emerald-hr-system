@@ -1,16 +1,12 @@
-package dao;
+package com.Emerald.hrSystem.dao;
 
-/**
- * Created by pocok on 8/9/16.
- */
 import javax.transaction.Transactional;
-
-import entity.User;
+import com.Emerald.hrSystem.entity.User;
+import com.sun.tools.javac.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate4.HibernateTemplate;
 
 
-import java.util.List;
 
 @Transactional
 public class UserDao implements IUserDao {

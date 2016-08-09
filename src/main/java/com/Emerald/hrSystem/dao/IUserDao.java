@@ -1,8 +1,8 @@
-package dao;
+package com.Emerald.hrSystem.dao;
 
-import entity.User;
 
-import java.util.List;
+import com.Emerald.hrSystem.entity.User;
+import com.sun.tools.javac.util.List;
 
 public interface IUserDao {
 

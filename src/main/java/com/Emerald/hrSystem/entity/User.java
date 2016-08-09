@@ -1,8 +1,6 @@
-package entity;
+package com.Emerald.hrSystem.entity;
 
-/**
- * Created by pocok on 8/9/16.
- */
+
 import javax.persistence.*;
 import java.io.Serializable;
 import javax.validation.constraints.Min;

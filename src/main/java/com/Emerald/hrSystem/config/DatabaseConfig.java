@@ -1,14 +1,10 @@
-package config;
+package com.Emerald.hrSystem.config;
 
-/**
- * Created by pocok on 8/9/16.
- */
 
 import javax.sql.DataSource;
-
-import dao.IUserDao;
-import dao.UserDao;
-import entity.User;
+import com.Emerald.hrSystem.dao.IUserDao;
+import com.Emerald.hrSystem.dao.UserDao;
+import com.Emerald.hrSystem.entity.User;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.hibernate.SessionFactory;
 import org.springframework.context.annotation.Bean;
