@@ -45,8 +45,9 @@ import java.util.ArrayList;
           if (isUserNameFree(newUser) && registrationPasswordCheck(newUser)){
               addUser(newUser);
               return "welcome";
+          } else {
+              return "registration";
           }
-          return "registration";
       }
 
       public boolean registrationPasswordCheck(User newUser) {
