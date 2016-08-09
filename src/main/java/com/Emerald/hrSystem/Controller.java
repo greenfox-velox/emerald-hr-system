@@ -7,12 +7,12 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.stereotype.Controller;
-
 import javax.validation.Valid;
 
-@Controller
+@org.springframework.stereotype.Controller
 public class Controller {
+
+    Validation validation = new Validation();
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String showLogin(Model model) {
@@ -22,8 +22,7 @@ public class Controller {
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String login(@ModelAttribute User userLogin, Model model) {
-        Validation validation = new Validation();
-        return validation.loginValidation(userLogin);
+        return validation.loginValidation(userLogin, Database userDb);
     }
 
     Database userDb = new Database();
@@ -44,10 +43,10 @@ public class Controller {
     public String addNewUser(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return "registration";
-        } else if (userDb.isUserNameFree(newUser.getUserName())){
-            userDb.addUser(newUser);
+        } else {
+        validation.registrationValidation(newUser, userDb);
+        return "welcome";
         }
-        return "result";
     }
 }
 

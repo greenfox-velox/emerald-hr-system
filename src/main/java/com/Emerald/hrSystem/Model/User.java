@@ -21,6 +21,10 @@ public class User {
   @Size (min = 6, max = 15, message = "Your password must be between 6 and 15 characters")
   private String password;
 
+  @NotEmpty (message = "Please enter your username")
+  @Size (min = 6, max = 15, message = "Your password must be between 6 and 15 characters")
+  private String passwordConfirm;
+
   public User() {}
 
   public User(String userName, String password) {
@@ -73,4 +77,13 @@ public class User {
   public void setPassword(String password) {
     this.password = password;
   }
+
+  public String getPasswordConfirm() {
+    return passwordConfirm;
+  }
+
+  public void setPasswordConfirm(String passwordConfirm) {
+    this.passwordConfirm = passwordConfirm;
+  }
 }
+

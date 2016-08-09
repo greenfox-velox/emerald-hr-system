@@ -43,17 +43,30 @@ import java.util.ArrayList;
       return users.get(item).getPassword().equals(user.getPassword());
     }
 
+
     public ArrayList<User> getUsers(){
         return users;
     }
 
-    public boolean isUserNameFree(String userName) {
+    public boolean isUserNameFree(User userName) {
         for (User user : users) {
-            if (user.getUserName().equals(userName)) {
+            if (user.getUserName().equals(userName.getUserName())) {
                 return false;
             }
         }
         return true;
     }
+
+      public String registerUser (User newUser) {
+          if (isUserNameFree(newUser) && registrationPasswordCheck(newUser)){
+              addUser(newUser);
+              return "welcome";
+          }
+          return "registration";
+      }
+
+      public boolean registrationPasswordCheck(User newUser) {
+          return newUser.getPassword().equals(newUser.getPasswordConfirm());
+      }
 }
 
