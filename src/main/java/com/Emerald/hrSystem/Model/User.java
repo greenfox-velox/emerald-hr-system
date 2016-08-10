@@ -3,9 +3,12 @@ package com.Emerald.hrSystem.Model;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
+import javax.persistence.*;
 import javax.validation.constraints.Size;
 import javax.validation.constraints.NotNull;
 
+@Entity
+@Table(name="User")
 public class User {
   private int id;
 
