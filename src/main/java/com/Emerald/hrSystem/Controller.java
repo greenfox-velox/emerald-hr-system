@@ -33,14 +33,11 @@ public class Controller {
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public String addNewUser(@Valid @ModelAttribute("newUser") User newUser) {
-        return validation.registrationValidation(newUser, userDb);
+    public String addNewUser(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return "registration";
+        } else {
+            return validation.registrationValidation(newUser, userDb);
         }
-
-    @RequestMapping(value = "/users", method = RequestMethod.GET)
-    public Database showUsers(Model model) {
-        model.addAttribute("userDb", userDb.users);
-        return userDb;
     }
 }
-

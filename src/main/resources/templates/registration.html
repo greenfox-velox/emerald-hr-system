@@ -3,20 +3,26 @@
 <head>
     <title>User Registration</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <!--<link rel="stylesheet" href="../../resources/css/style.css"/>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="signin.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<h1>User Registration Form</h1>
-<form action="#" th:action="@{/register}" th:object="${newUser}" method="post">
-    <p>Email: <input type="text" th:field="*{email}" /></p>
-    <p th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Username Error</p>
-    <p>Name: <input type="text" th:field="*{userName}" /></p>
-    <p th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}">Username Error</p>
-    <p>Password: <input type="password" th:field="*{password}" /></p>
-    <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Username Error</p>
-    <p>Confirm Password: <input type="password" th:field="*{passwordConfirm}" /></p>
-    <p th:if="${#fields.hasErrors('passwordConfirm')}" th:errors="*{passwordConfirm}">Username Error</p>
-    <p><input type="submit" value="Submit" /></p>
-</form>
+<div class="container">
+    <form class="form-sigin" action="#" th:action="@{/register}" th:object="${newUser}" method="post">
+        <h2 class="form-signin-heading">Please register a new account</h2>
+        <p>Email: <input class="form-control" type="text" th:field="*{email}" autofocus/></p>
+        <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Enter a valid email address</p>
+        <p>Name: <input class="form-control" type="text" th:field="*{userName}" /></p>
+        <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Username Error</p>
+        <p>Password: <input class="form-control" type="password" th:field="*{password}" /></p>
+        <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Error</p>
+        <p>Confirm Password: <input class="form-control" type="password" th:field="*{passwordConfirm}" /></p>
+        <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('passwordConfirm')}" th:errors="*{passwordConfirm}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Confirm Error</p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Register account</button>
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

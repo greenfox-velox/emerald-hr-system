@@ -2,7 +2,6 @@ package com.Emerald.hrSystem.Model;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
-
 import javax.validation.constraints.Size;
 import javax.validation.constraints.NotNull;
 
@@ -13,16 +12,16 @@ public class User {
   @NotEmpty (message = "Please enter your username")
   private String userName;
 
-  @Email
+  @Email(regexp="\\w+@\\w+\\.{1}\\w+", message="Please provide a valid email address!" )
   @NotEmpty (message = "Please enter your email")
   private String email;
 
   @NotEmpty (message = "Please enter your username")
-  @Size (min = 6, max = 15, message = "Your password must be between 6 and 15 characters")
+  @Size (min = 8, max = 15, message = "Your password must be between 6 and 15 characters")
   private String password;
 
   @NotEmpty (message = "Please enter your username")
-  @Size (min = 6, max = 15, message = "Your password must be between 6 and 15 characters")
+  @Size (min = 8, max = 15, message = "Your password must be between 6 and 15 characters")
   private String passwordConfirm;
 
   public User() {}
@@ -42,8 +41,8 @@ public class User {
   @Override
   public String toString() {
     return String.format(
-        "User[id=%d, userName='%s', email='%s']",
-        id, userName, email);
+            "User[id=%d, userName='%s', email='%s']",
+            id, userName, email);
   }
 
   public int getId() {
@@ -86,4 +85,3 @@ public class User {
     this.passwordConfirm = passwordConfirm;
   }
 }
-
