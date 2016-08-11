@@ -20,6 +20,7 @@ repositories {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework:spring-jdbc")
     compile 'mysql:mysql-connector-java:5.1.31'

@@ -12,6 +12,9 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 
 @Configuration
 @ComponentScan(basePackages="com.Emerald.hrSystem")
@@ -29,11 +32,24 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
 
   @Bean
   public DataSource getDataSource() {
+    String url = "jdbc:mysql://localhost";
+    String username = "root";
+    String password = "Pocok07";
+    String database = "HRSYSTEM";
+
+    String sql = "CREATE DATABASE IF NOT EXISTS " + database;
+
+    try (Connection conn = DriverManager.getConnection(url, username, password);
+         PreparedStatement stmt = conn.prepareStatement(sql)) {
+      stmt.execute();
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
     DriverManagerDataSource dataSource = new DriverManagerDataSource();
     dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-    dataSource.setUrl("jdbc:mysql://localhost:3306/firstdb");
-    dataSource.setUsername("root");
-    dataSource.setPassword("Pocok07");
+    dataSource.setUrl(url + database);
+    dataSource.setUsername(username);
+    dataSource.setPassword(password);
 
     return dataSource;
   }
