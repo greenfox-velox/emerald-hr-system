@@ -1,6 +1,7 @@
 package com.Emerald.hrSystem;
 
 import com.Emerald.hrSystem.Model.User;
+import com.Emerald.hrSystem.Model.UserDao;
 import java.util.ArrayList;
 
 public class Database {

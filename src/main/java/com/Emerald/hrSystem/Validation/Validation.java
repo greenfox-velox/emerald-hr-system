@@ -16,8 +16,8 @@ public class Validation {
     return "rejectusername";
   }
 
-  public String registrationValidation (User listUser, Database userDb) {
-    return userDb.registerUser(listUser);
+  public String registrationValidation (User newUser, Database userDb) {
+    return userDb.registerUser(newUser);
   }
 }
 
