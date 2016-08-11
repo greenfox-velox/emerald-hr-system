@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import javax.validation.constraints.NotNull;
 
+
 public class User {
   private int id;
 
@@ -38,12 +39,12 @@ public class User {
     this.password = password;
   }
 
-  @Override
-  public String toString() {
-    return String.format(
-            "User[id=%d, userName='%s', email='%s']",
-            id, userName, email);
-  }
+//  @Override
+//  public String toString() {
+//    return String.format(
+//            "User[id=%d, userName='%s', email='%s']",
+//            id, userName, email);
+//  }
 
   public int getId() {
     return id;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Test listOfUsers</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div align="center">
+    <h1>User List</h1>
+    <table border="1">
+        <th>No</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+
+        <c:forEach var="user" items="${userList}" varStatus="status">
+            <tr>
+                <td>${user.getUserName()}</td>
+                <td>${user.getId()}</td>
+                <td>${user.getEmail()}</td>
+                <td>${user.getPassword(}</td>
+
+            </tr>
+        </c:forEach>
+    </table>
+</div>
+</body>
+</html>

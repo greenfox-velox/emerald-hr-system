@@ -1,19 +1,14 @@
 package com.Emerald.hrSystem.Model;
 
 import java.util.List;
-import javax.sql.DataSource;
 
 public interface UserDAO {
 
-  public void setDataSource(DataSource ds);
+  public void saveOrUpdate(User user);
 
-  public void create(String userName, String email, String password);
+  public void delete(int id);
 
-  public User getStudent(Integer id);
+  public User get(int id);
 
-  public List<User> listStudents();
-
-  public void delete(Integer id);
-
-  public void update(Integer id, Integer age);
+  public List<User> list();
 }
