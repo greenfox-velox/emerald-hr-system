@@ -9,9 +9,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * Created by pocok on 8/11/16.
- */
 public class UserDAOImpl implements UserDAO{
 
   private JdbcTemplate jdbcTemplate;
@@ -55,9 +52,7 @@ public class UserDAOImpl implements UserDAO{
         aUser.setPassword(rs.getString("password"));
         return aUser;
       }
-
     });
-
     return userList;
   }
 
@@ -76,10 +71,8 @@ public class UserDAOImpl implements UserDAO{
           user.setPassword(rs.getString("password"));
           return user;
         }
-
         return null;
       }
-
     });
   }
 

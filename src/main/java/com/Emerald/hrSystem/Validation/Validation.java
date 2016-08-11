@@ -4,6 +4,8 @@ import com.Emerald.hrSystem.Model.User;
 import com.Emerald.hrSystem.Model.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 public class Validation {
 
   @Autowired
@@ -20,9 +22,13 @@ public class Validation {
     return "login";
   }
 
-  public String registrationValidation (User listUser) {
-    userDAO.saveOrUpdate(listUser);
-    return "welcome";
+  public String registrationValidation (User newUser) {
+    if (isUserNameFree(newUser) && registrationPasswordCheck(newUser)){
+      userDAO.saveOrUpdate(newUser);
+      return "welcome";
+    } else {
+      return "registration";
+    }
   }
 
   public Boolean userNameCheck( User listUser, User user) {

@@ -18,6 +18,8 @@ import java.util.List;
 @org.springframework.stereotype.Controller
 public class Controller {
 
+    Validation validation = new Validation();
+
     @Autowired
     private UserDAO userDAO;
 
