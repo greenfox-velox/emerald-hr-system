@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring Boot and Thymeleaf example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h3>Result</h3>
+<h4>Id:</h4>
+<p th:text="${newUser.id}" />
+<h4>Email:</h4>
+<p th:text="${newUser.email}" />
+<h4>Username:</h4>
+<p th:text="${newUser.userName}" />
+<h4>Password:</h4>
+<p th:text="${newUser.password}" />
+<h4>PasswordConfirm:</h4>
+<p th:text="${passwordConfirm}" />
+<a href="/register">Go back to registration page</a>
+</body>
+</html>
