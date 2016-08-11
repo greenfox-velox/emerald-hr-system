@@ -18,6 +18,8 @@ import java.util.List;
 @org.springframework.stereotype.Controller
 public class Controller {
 
+    Validation validation = new Validation();
+
     @Autowired
     private UserDAO userDAO;
 
@@ -38,7 +40,7 @@ public class Controller {
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String login(@ModelAttribute User userLogin, Model model) {
-      return "welcome";
+      return validation.loginValidation(userLogin);
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.GET)
