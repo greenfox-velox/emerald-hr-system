@@ -1,19 +1,34 @@
 package com.Emerald.hrSystem;
 
 import com.Emerald.hrSystem.Model.User;
+import com.Emerald.hrSystem.Model.UserDAO;
 import com.Emerald.hrSystem.Validation.Validation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
 import javax.validation.Valid;
+import java.io.IOException;
+import java.util.List;
 
 @org.springframework.stereotype.Controller
 public class Controller {
 
-    Validation validation = new Validation();
-    Database userDb = new Database();
+    @Autowired
+    private UserDAO userDAO;
+
+
+    @RequestMapping(value="/users", method = RequestMethod.GET)
+      public String listUsers(Model model) throws IOException {
+      List<User> users = userDAO.list();
+      model.addAttribute("userDb", users);
+      return "users";
+      }
+
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String showLogin(Model model) {
@@ -37,7 +52,8 @@ public class Controller {
       if (bindingResult.hasErrors()) {
         return "registration";
       } else {
-        return validation.registrationValidation(newUser, userDb);
+        userDAO.saveOrUpdate(newUser);
+        return "welcome";
       }
     }
 }
