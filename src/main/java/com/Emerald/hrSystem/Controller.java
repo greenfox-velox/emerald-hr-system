@@ -17,27 +17,27 @@ public class Controller {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String showLogin(Model model) {
-        model.addAttribute("userLogin", new User());
-        return "login";
+      model.addAttribute("userLogin", new User());
+      return "login";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String login(@ModelAttribute User userLogin, Model model) {
-        return validation.loginValidation(userLogin, userDb);
+      return "welcome";
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.GET)
     public String showRegistrationForm(Model model) {
-        model.addAttribute("newUser", new User());
-        return "registration";
+      model.addAttribute("newUser", new User());
+      return "registration";
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public String addNewUser(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
-            return "registration";
-        } else {
-            return validation.registrationValidation(newUser, userDb);
-        }
+      if (bindingResult.hasErrors()) {
+        return "registration";
+      } else {
+        return validation.registrationValidation(newUser, userDb);
+      }
     }
 }
