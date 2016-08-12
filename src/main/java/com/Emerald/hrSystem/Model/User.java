@@ -21,6 +21,14 @@ public class User {
   @Size (min = 8, max = 15, message = "Your password must be between 6 and 15 characters")
   private String password;
 
+  public String getPasswordConfirm() {
+    return passwordConfirm;
+  }
+
+  public void setPasswordConfirm(String passwordConfirm) {
+    this.passwordConfirm = passwordConfirm;
+  }
+
   @NotEmpty (message = "Please enter your username")
   @Size (min = 8, max = 15, message = "Your password must be between 6 and 15 characters")
   private String passwordConfirm;

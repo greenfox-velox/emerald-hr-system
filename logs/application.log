@@ -1,0 +1,34 @@
+2016-08-12 09:47:41 DEBUG Controller:33 - listUsers() #### [ /users ] is executed!
+2016-08-12 09:47:48 DEBUG Controller:62 - showRegistrationForm() #### [ /register ] is executed!
+2016-08-12 09:49:32 DEBUG Controller:62 - showRegistrationForm() #### [ /register ] is executed!
+2016-08-12 09:50:40 DEBUG Controller:71 - addNewUser() #### [ /register ] is executed!
+2016-08-12 09:50:40 INFO  Controller:81 - user saved ------> redirect to [ /welcome ]
+2016-08-12 09:51:33 DEBUG Controller:44 - showLogin() #### [ /login ] is executed!
+2016-08-12 09:51:41 DEBUG Controller:53 - login() #### [ /login ] is executed!
+2016-08-12 10:20:15 DEBUG Controller:44 - showLogin() #### [ /login ] is executed!
+2016-08-12 10:20:22 DEBUG Controller:33 - listUsers() #### [ /users ] is executed!
+2016-08-12 10:20:22 DEBUG UserDAOImpl:48 - getting Users from db ------------  list() executed!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - Pocok found!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - Zsolt found!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - Anna found!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - valid found!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - vibjnk found!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - Ize found!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - pocok found!
+2016-08-12 10:20:23 INFO  UserDAOImpl:62 - sguobinké found!
+2016-08-12 10:27:57 DEBUG Controller:33 - listUsers() #### [ /users ] is executed!
+2016-08-12 10:27:57 DEBUG UserDAOImpl:57 - getting Users from db ------------  list() executed!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - Pocok found!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - Zsolt found!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - Anna found!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - valid found!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - vibjnk found!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - Ize found!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - pocok found!
+2016-08-12 10:27:58 INFO  UserDAOImpl:71 - sguobinké found!
+2016-08-12 10:28:40 DEBUG Controller:62 - showRegistrationForm() #### [ /register ] is executed!
+2016-08-12 10:29:04 DEBUG Controller:71 - addNewUser() #### [ /register ] is executed!
+2016-08-12 10:29:04 DEBUG UserDAOImpl:27 - saveOrUpdate() executed!
+2016-08-12 10:29:04 DEBUG UserDAOImpl:81 - query existing User with Id: 0
+2016-08-12 10:29:04 DEBUG UserDAOImpl:37 - saving User with name: erfdgthz
+2016-08-12 10:29:04 INFO  Controller:81 - user saved ------> redirect to [ /welcome ]

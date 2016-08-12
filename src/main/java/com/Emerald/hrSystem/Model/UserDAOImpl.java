@@ -1,15 +1,20 @@
 package com.Emerald.hrSystem.Model;
 
+import org.apache.log4j.Logger;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.ResultSetExtractor;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+
 import javax.sql.DataSource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
 public class UserDAOImpl implements UserDAO{
+
+  private static final Logger logger = Logger.getLogger(UserDAOImpl.class);
 
   private JdbcTemplate jdbcTemplate;
 
@@ -18,13 +23,19 @@ public class UserDAOImpl implements UserDAO{
   }
 
   public void saveOrUpdate(User user) {
-    if (user.getId() > 0) {
-      // update
+
+    logger.debug("saveOrUpdate() executed!");
+
+    if (get(user.getId()) != null) {
+      logger.debug("updating existing User with Id: " + user.getId());
+
       String sql = "UPDATE User SET name=?, email=?, password=? WHERE id=?";
       jdbcTemplate.update(sql, user.getUserName(), user.getEmail(),
           user.getPassword(), user.getId());
     } else {
-      // insert
+
+      logger.debug("saving User with name: " + user.getUserName());
+
       String sql = "INSERT INTO User (name, email, password)"
           + " VALUES (?, ?, ?)";
       jdbcTemplate.update(sql, user.getUserName(), user.getEmail(),
@@ -34,11 +45,17 @@ public class UserDAOImpl implements UserDAO{
   }
 
   public void delete(int id) {
+
+    logger.debug("deleting User from db with id: " + id + "------------  delete() executed!");
+
     String sql = "DELETE FROM User WHERE id=?";
     jdbcTemplate.update(sql, id);
   }
 
   public List<User> list() {
+
+    logger.debug("getting Users from db ------------  list() executed!");
+
     String sql = "SELECT * FROM User";
     List<User> userList = jdbcTemplate.query(sql, new RowMapper<User>() {
 
@@ -50,6 +67,9 @@ public class UserDAOImpl implements UserDAO{
         aUser.setUserName(rs.getString("name"));
         aUser.setEmail(rs.getString("email"));
         aUser.setPassword(rs.getString("password"));
+
+        logger.info(aUser.getUserName() + " found!");
+
         return aUser;
       }
     });
@@ -57,6 +77,9 @@ public class UserDAOImpl implements UserDAO{
   }
 
   public User get(int id) {
+
+    logger.debug("query existing User with Id: " + id);
+
     String sql = "SELECT * FROM User WHERE id=" + id;
     return jdbcTemplate.query(sql, new ResultSetExtractor<User>() {
 
