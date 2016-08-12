@@ -52,19 +52,19 @@ public class Controller {
       return validation.loginValidation(userLogin,userDAO);
     }
 
-    @RequestMapping(value = "/register", method = RequestMethod.GET)
+    @RequestMapping(value = "/registration", method = RequestMethod.GET)
     public String showRegistrationForm(Model model) {
 
-      logger.debug("showRegistrationForm() #### [ /register ] is executed!");
+      logger.debug("showRegistrationForm() #### [ /registration ] is executed!");
 
       model.addAttribute("newUser", new User());
       return "registration";
     }
 
-    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public String addNewUser(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
 
-      logger.debug("addNewUser() #### [ /register ] is executed!");
+      logger.debug("addNewUser() #### [ /registration ] is executed!");
 
       if (bindingResult.hasErrors()) {
 

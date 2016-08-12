@@ -35,7 +35,8 @@ public class Validation {
 
   public boolean isUserNameFree(User userName,UserDAO userDAO ) {
     for (int i = 0; i < userDAO.list().size(); i++) {
-      System.out.println(userDAO.list().get(i));
+      System.out.println(userDAO.list().get(i).getUserName());
+      System.out.println(userName.getUserName());
       if (userDAO.list().get(i).getUserName().equals(userName.getUserName())) {
         return false;
       }
