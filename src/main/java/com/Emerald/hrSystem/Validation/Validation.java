@@ -3,13 +3,9 @@ package com.Emerald.hrSystem.Validation;
 import com.Emerald.hrSystem.Model.User;
 import com.Emerald.hrSystem.Model.UserDAO;
 
-
-import java.util.List;
-
 public class Validation {
 
   public String loginValidation(User loginUser,UserDAO userDAO) {
-    System.out.println("macska"+userDAO.list().size());
     for (int i = 0; i < userDAO.list().size(); i++) {
       if (this.userNameCheck(userDAO.list().get(i), loginUser) && this.passwordCheck(userDAO.list().get(i), loginUser)) {
         return "welcome";
@@ -48,8 +44,8 @@ public class Validation {
   }
 
   public boolean registrationPasswordCheck(User newUser) {
-    return newUser.getPassword().equals(newUser.getPasswordConfirm());
-
+    return newUser.isPasswordValid(newUser);
   }
+
 }
 

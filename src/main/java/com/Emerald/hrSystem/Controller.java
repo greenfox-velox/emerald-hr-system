@@ -36,6 +36,7 @@ public class Controller {
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String login(@ModelAttribute User userLogin, Model model) {
+      model.addAttribute("User", userLogin);
       return validation.loginValidation(userLogin,userDAO);
     }
 
