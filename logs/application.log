@@ -1143,3 +1143,135 @@
 2016-08-12 12:02:47 DEBUG UserDAOImpl:50 - deleting User from db with id: 13------------  delete() executed!
 2016-08-12 12:05:21 DEBUG Controller:89 - deleteUser() #### [ /delete/13 ] is executed!
 2016-08-12 12:05:21 DEBUG UserDAOImpl:50 - deleting User from db with id: 13------------  delete() executed!
+2016-08-12 15:34:04 DEBUG Controller:43 - showLogin() #### [ /login ] is executed!
+2016-08-12 15:34:13 DEBUG Controller:52 - login() #### [ /login ] is executed!
+2016-08-12 15:34:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:41 DEBUG Controller:52 - login() #### [ /login ] is executed!
+2016-08-12 15:35:41 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:42 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:42 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:42 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:44 DEBUG Controller:43 - showLogin() #### [ /login ] is executed!
+2016-08-12 15:35:54 DEBUG Controller:52 - login() #### [ /login ] is executed!
+2016-08-12 15:35:54 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:54 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:54 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:54 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:54 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:54 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:59 DEBUG Controller:52 - login() #### [ /login ] is executed!
+2016-08-12 15:35:59 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:35:59 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:35:59 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:35:59 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:35:59 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:35:59 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:00 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:00 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG Controller:52 - login() #### [ /login ] is executed!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:01 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - macska found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - fadfasfa found!
+2016-08-12 15:36:01 INFO  UserDAOImpl:72 - Anna3 found!
+2016-08-12 15:36:03 DEBUG Controller:43 - showLogin() #### [ /login ] is executed!
+2016-08-12 15:36:05 DEBUG Controller:61 - showRegistrationForm() #### [ /registration ] is executed!
+2016-08-12 15:36:10 DEBUG Controller:43 - showLogin() #### [ /login ] is executed!
+2016-08-12 15:36:11 DEBUG Controller:61 - showRegistrationForm() #### [ /registration ] is executed!
