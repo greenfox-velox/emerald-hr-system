@@ -28,7 +28,7 @@ public class Controller {
     @RequestMapping(value="/users", method = RequestMethod.GET)
       public String listUsers(Model model) throws IOException {
 
-        logger.debug("listUsers() #### [ /users ] is executed!");
+      logger.debug("listUsers() #### [ /users ] is executed!");
 
       model.addAttribute("userDb", userDAO.list());
       return "users";
