@@ -20,7 +20,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
   public void addViewControllers(ViewControllerRegistry registry) {
     registry.addViewController("/").setViewName("login");
     registry.addViewController("/login").setViewName("login");
-    registry.addViewController("/register").setViewName("registration");
+    registry.addViewController("/registration").setViewName("registration");
     registry.addViewController("/welcome").setViewName("welcome");
   }
 
@@ -30,7 +30,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
     dataSource.setDriverClassName("com.mysql.jdbc.Driver");
     dataSource.setUrl("jdbc:mysql://localhost:3306/firstdb");
     dataSource.setUsername("root");
-    dataSource.setPassword("Pocok07");
+    dataSource.setPassword("sql");
 
     return dataSource;
   }
