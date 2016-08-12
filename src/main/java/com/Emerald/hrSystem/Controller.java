@@ -3,9 +3,12 @@ package com.Emerald.hrSystem;
 import com.Emerald.hrSystem.Model.User;
 import com.Emerald.hrSystem.Model.UserDAO;
 import com.Emerald.hrSystem.Validation.Validation;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
 import org.apache.log4j.Logger;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,8 +33,8 @@ public class Controller {
 
       logger.debug("listUsers() #### [ /users ] is executed!");
 
-      model.addAttribute("userDb", userDAO.list());
-      return "users";
+        model.addAttribute("userDb", userDAO.list());
+        return "users";
       }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
@@ -79,4 +82,15 @@ public class Controller {
 
       }
     }
+
+  @RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
+  public ResponseEntity<String> deleteUser(@PathVariable("id") int id) {
+
+    logger.debug("deleteUser() #### [ /delete/" + id + " ] is executed!");
+
+    userDAO.delete(id);
+    return new ResponseEntity<>("Deleted!", HttpStatus.CREATED);
+  }
+
+
 }
