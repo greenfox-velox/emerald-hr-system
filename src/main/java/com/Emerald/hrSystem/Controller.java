@@ -30,8 +30,8 @@ public class Controller {
 
         logger.debug("listUsers() #### [ /users ] is executed!");
 
-      model.addAttribute("userDb", userDAO);
-      return "users";
+        model.addAttribute("userDb", userDAO.list());
+        return "users";
       }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
