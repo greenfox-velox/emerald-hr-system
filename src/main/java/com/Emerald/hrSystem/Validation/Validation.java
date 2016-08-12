@@ -2,24 +2,31 @@ package com.Emerald.hrSystem.Validation;
 
 import com.Emerald.hrSystem.Model.User;
 import com.Emerald.hrSystem.Model.UserDAO;
-import org.springframework.beans.factory.annotation.Autowired;
+
 
 import java.util.List;
 
 public class Validation {
 
-  @Autowired
-  private UserDAO userDAO;
-
-  public String loginValidation(User loginUser) {
-    for (User listUser : userDAO.list()) {
-      if (this.userNameCheck(listUser, loginUser) && this.passwordCheck(listUser, loginUser)) {
+  public String loginValidation(User loginUser,UserDAO userDAO) {
+    System.out.println("macska"+userDAO.list().size());
+    for (int i = 0; i < userDAO.list().size(); i++) {
+      if (this.userNameCheck(userDAO.list().get(i), loginUser) && this.passwordCheck(userDAO.list().get(i), loginUser)) {
         return "welcome";
-      } else if (this.userNameCheck(listUser, loginUser) && !(this.passwordCheck(listUser, loginUser))) {
-        return "rejectpassword";
+      } else if (this.userNameCheck(userDAO.list().get(i), loginUser) && !(this.passwordCheck(userDAO.list().get(i), loginUser))) {
+        return "login";
       }
     }
-    return "rejectusername";
+    return "login";
+  }
+
+  public String registrationValidation (User newUser, UserDAO userDAO) {
+    if (this.isUserNameFree(newUser,userDAO) && this.registrationPasswordCheck(newUser)){
+      userDAO.saveOrUpdate(newUser);
+      return "welcome";
+    } else {
+      return "registration";
+    }
   }
 
   public Boolean userNameCheck( User listUser, User user) {
@@ -30,22 +37,14 @@ public class Validation {
     return listUser.getPassword().equals(user.getPassword());
   }
 
-  public boolean isUserNameFree(User userName) {
-    for (User user :userDAO.list()) {
-      if (user.getUserName().equals(userName.getUserName())) {
+  public boolean isUserNameFree(User userName,UserDAO userDAO ) {
+    for (int i = 0; i < userDAO.list().size(); i++) {
+      System.out.println(userDAO.list().get(i));
+      if (userDAO.list().get(i).getUserName().equals(userName.getUserName())) {
         return false;
       }
     }
     return true;
-  }
-
-  public String registrationValidation (User newUser) {
-    if (isUserNameFree(newUser) && registrationPasswordCheck(newUser)){
-      userDAO.saveOrUpdate(newUser);
-      return "welcome";
-    } else {
-      return "registration";
-    }
   }
 
   public boolean registrationPasswordCheck(User newUser) {

@@ -3,13 +3,12 @@ package com.Emerald.hrSystem;
 import com.Emerald.hrSystem.Model.User;
 import com.Emerald.hrSystem.Model.UserDAO;
 import com.Emerald.hrSystem.Validation.Validation;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.validation.Valid;
 import java.io.IOException;
@@ -23,14 +22,11 @@ public class Controller {
     @Autowired
     private UserDAO userDAO;
 
-
     @RequestMapping(value="/users", method = RequestMethod.GET)
       public String listUsers(Model model) throws IOException {
-      List<User> users = userDAO.list();
-      model.addAttribute("userDb", users);
+      model.addAttribute("userDb", userDAO);
       return "users";
       }
-
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String showLogin(Model model) {
@@ -40,7 +36,7 @@ public class Controller {
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public String login(@ModelAttribute User userLogin, Model model) {
-      return validation.loginValidation(userLogin);
+      return validation.loginValidation(userLogin,userDAO);
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.GET)
@@ -54,8 +50,7 @@ public class Controller {
       if (bindingResult.hasErrors()) {
         return "registration";
       } else {
-        userDAO.saveOrUpdate(newUser);
-        return "welcome";
+        return validation.registrationValidation(newUser,userDAO);
       }
     }
 }

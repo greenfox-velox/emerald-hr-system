@@ -13,6 +13,8 @@ public class UserDAOImpl implements UserDAO{
 
   private JdbcTemplate jdbcTemplate;
 
+  public UserDAOImpl(){}
+
   public UserDAOImpl(DataSource dataSource) {
     jdbcTemplate = new JdbcTemplate(dataSource);
   }
@@ -30,7 +32,6 @@ public class UserDAOImpl implements UserDAO{
       jdbcTemplate.update(sql, user.getUserName(), user.getEmail(),
           user.getPassword());
     }
-
   }
 
   public void delete(int id) {
