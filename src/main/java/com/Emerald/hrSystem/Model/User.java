@@ -1,6 +1,5 @@
 package com.Emerald.hrSystem.Model;
 
-import org.apache.tomcat.websocket.server.Constants;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 

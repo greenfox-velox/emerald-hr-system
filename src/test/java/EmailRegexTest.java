@@ -44,6 +44,9 @@ public class EmailRegexTest {
     emailsBad.add("username@yahoo.com.");
     emailsBad.add("username@yahoo..com");
     emailsBad.add("#@%^%#$@#$@#.com");
+    emailsBad.add("ize@.com");
+    emailsBad.add("ize@com");
+    emailsBad.add("123@.123");
     emailsBad.add("this\\ is\"really\"not\\allowed@example.com");
 
 
