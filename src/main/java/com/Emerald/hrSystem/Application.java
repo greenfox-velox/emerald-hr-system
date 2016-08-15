@@ -2,6 +2,7 @@ package com.Emerald.hrSystem;
 
 
 
+import org.flywaydb.core.Flyway;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,6 +13,9 @@ public class Application {
         "classpath:/static/"};
 
     public static void main(String[] args) throws Throwable {
+        Flyway flyway = new Flyway();
+        flyway.setDataSource("jdbc:mysql://localhost:3306/HRSYSTEM", "root", "Pocok07");
+        flyway.migrate();
         SpringApplication.run(Application.class, args);
     }
 

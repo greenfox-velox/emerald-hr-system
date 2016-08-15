@@ -45,12 +45,13 @@ public class UserDAOImpl implements UserDAO{
     }
   }
 
-  public void delete(int id) {
+  public String delete(int id) {
 
     logger.debug("deleting User from db with id: " + id + "------------  delete() executed!");
 
     String sql = "DELETE FROM User WHERE id=?";
     jdbcTemplate.update(sql, id);
+    return "Deleted user with id: " + id;
   }
 
   public List<User> list() {

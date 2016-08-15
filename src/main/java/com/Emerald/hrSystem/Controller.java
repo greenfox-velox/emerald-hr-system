@@ -16,14 +16,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.validation.Valid;
 import java.io.IOException;
-import java.util.List;
 
 @org.springframework.stereotype.Controller
 public class Controller {
 
 
     private static final Logger logger = Logger.getLogger(Controller.class);
-    Validation validation = new Validation();
+    private Validation validation = new Validation();
 
     @Autowired
     private UserDAO userDAO;

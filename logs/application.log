@@ -1143,3 +1143,1144 @@
 2016-08-12 12:02:47 DEBUG UserDAOImpl:50 - deleting User from db with id: 13------------  delete() executed!
 2016-08-12 12:05:21 DEBUG Controller:89 - deleteUser() #### [ /delete/13 ] is executed!
 2016-08-12 12:05:21 DEBUG UserDAOImpl:50 - deleting User from db with id: 13------------  delete() executed!
+2016-08-12 13:43:30 DEBUG Controller:60 - showRegistrationForm() #### [ /registration ] is executed!
+2016-08-12 13:43:50 DEBUG Controller:69 - addNewUser() #### [ /registration ] is executed!
+2016-08-12 13:43:50 INFO  Controller:78 - user saved ------> redirect to [ /welcome ]
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:50 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:50 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:43:51 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:29 - saveOrUpdate() executed!
+2016-08-12 13:43:51 DEBUG UserDAOImpl:82 - query existing User with Id: 0
+2016-08-12 13:43:51 DEBUG UserDAOImpl:39 - saving User with name: Test1
+2016-08-12 13:44:13 DEBUG Controller:69 - addNewUser() #### [ /registration ] is executed!
+2016-08-12 13:44:13 INFO  Controller:78 - user saved ------> redirect to [ /welcome ]
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:13 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:13 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG Controller:69 - addNewUser() #### [ /registration ] is executed!
+2016-08-12 13:44:26 INFO  Controller:78 - user saved ------> redirect to [ /welcome ]
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:26 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:26 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:44:27 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:29 - saveOrUpdate() executed!
+2016-08-12 13:44:27 DEBUG UserDAOImpl:82 - query existing User with Id: 0
+2016-08-12 13:44:27 DEBUG UserDAOImpl:39 - saving User with name: Test2
+2016-08-12 13:46:36 DEBUG Controller:69 - addNewUser() #### [ /registration ] is executed!
+2016-08-12 13:46:36 INFO  Controller:78 - user saved ------> redirect to [ /welcome ]
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:58 - getting Users from db ------------  list() executed!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Zsolt found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Anna found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - valid found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - vibjnk found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Ize found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - pocok found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - sguobinké found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test1 found!
+2016-08-12 13:46:36 INFO  UserDAOImpl:72 - Test2 found!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:29 - saveOrUpdate() executed!
+2016-08-12 13:46:36 DEBUG UserDAOImpl:82 - query existing User with Id: 0
+2016-08-12 13:46:36 DEBUG UserDAOImpl:39 - saving User with name: test11
+2016-08-15 12:03:26 DEBUG Controller:60 - showRegistrationForm() #### [ /registration ] is executed!
+2016-08-15 12:03:39 DEBUG Controller:69 - addNewUser() #### [ /registration ] is executed!
+2016-08-15 12:03:39 INFO  Controller:78 - user saved ------> redirect to [ /welcome ]
+2016-08-15 12:03:39 DEBUG UserDAOImpl:59 - getting Users from db ------------  list() executed!
+2016-08-15 12:03:39 DEBUG UserDAOImpl:29 - saveOrUpdate() executed!
+2016-08-15 12:03:39 DEBUG UserDAOImpl:83 - query existing User with Id: 0
+2016-08-15 12:03:39 DEBUG UserDAOImpl:39 - saving User with name: pocok
