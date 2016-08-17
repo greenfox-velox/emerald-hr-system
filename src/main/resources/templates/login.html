@@ -67,7 +67,7 @@ input::-webkit-input-placeholder {
 </head>
 <body>
 <div class="main-login main-center">
-    <form class="form-horizontal" th:action="@{/login}" th:object="${userLogin}" method="post">
+    <form class="form-horizontal" th:action="@{/login}"  method="post">
         <div class="alert alert-info" role="alert" th:if="${param.logout}"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>You have been logged out.</div>
         <h2 class="form-signin-heading">Please log in</h2>
         <div class="form-group">
@@ -75,7 +75,7 @@ input::-webkit-input-placeholder {
             <div class="cols-sm-10">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                    <input type="text" class="form-control" name="username" id="username"  th:field="*{userName}" placeholder="Enter your Username"/>
+                    <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
                 </div>
                 <div class="alert alert-danger" role="alert" th:if="${param.error}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Invalid username and password</div>
             </div>
@@ -85,7 +85,7 @@ input::-webkit-input-placeholder {
             <div class="cols-sm-10">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                    <input type="password" class="form-control" name="password" id="password" th:field="*{password}" placeholder="Enter your Password"/>
+                    <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
                 </div>
             </div>
         </div>

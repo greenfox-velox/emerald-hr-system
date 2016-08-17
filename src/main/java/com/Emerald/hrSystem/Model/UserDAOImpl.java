@@ -5,8 +5,6 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.ResultSetExtractor;
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-
 import javax.sql.DataSource;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -31,26 +29,27 @@ public class UserDAOImpl implements UserDAO{
     if (get(user.getId()) != null) {
       logger.debug("updating existing User with Id: " + user.getId());
 
-      String sql = "UPDATE User SET name=?, email=?, password=? WHERE id=?";
+      String sql = "UPDATE User SET username=?, email=?, password=? WHERE id=?";
       jdbcTemplate.update(sql, user.getUserName(), user.getEmail(),
           user.getPassword(), user.getId());
     } else {
 
-      logger.debug("saving User with name: " + user.getUserName());
+      logger.debug("saving User with username: " + user.getUserName());
 
-      String sql = "INSERT INTO User (name, email, password)"
+      String sql = "INSERT INTO User (username, email, password)"
           + " VALUES (?, ?, ?)";
       jdbcTemplate.update(sql, user.getUserName(), user.getEmail(),
           user.getPassword());
     }
   }
 
-  public void delete(int id) {
+  public String delete(int id) {
 
     logger.debug("deleting User from db with id: " + id + "------------  delete() executed!");
 
     String sql = "DELETE FROM User WHERE id=?";
     jdbcTemplate.update(sql, id);
+    return "Deleted user with id: " + id;
   }
 
   public List<User> list() {
@@ -65,7 +64,7 @@ public class UserDAOImpl implements UserDAO{
         User aUser = new User();
 
         aUser.setId(rs.getInt("id"));
-        aUser.setUserName(rs.getString("name"));
+        aUser.setUserName(rs.getString("username"));
         aUser.setEmail(rs.getString("email"));
         aUser.setPassword(rs.getString("password"));
 
@@ -90,7 +89,7 @@ public class UserDAOImpl implements UserDAO{
         if (rs.next()) {
           User user = new User();
           user.setId(rs.getInt("id"));
-          user.setUserName(rs.getString("name"));
+          user.setUserName(rs.getString("username"));
           user.setEmail(rs.getString("email"));
           user.setPassword(rs.getString("password"));
           return user;

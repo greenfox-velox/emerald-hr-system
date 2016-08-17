@@ -1,20 +1,15 @@
 package com.Emerald.hrSystem;
 
-
-
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.flywaydb.core.Flyway;
+import org.springframework.boot.SpringApplication;
 
 @SpringBootApplication
 public class Application {
-
-    public static final String[] CLASSPATH_RESOURCE_LOCATIONS = {
-        "classpath:/static/"};
-
-    public static void main(String[] args) throws Throwable {
-        SpringApplication.run(Application.class, args);
-    }
-
-
-
+  public static void main(String[] args) throws Throwable {
+    Flyway flyway = new Flyway();
+    flyway.setDataSource("jdbc:mysql://localhost:3306/HRSYSTEM","root","sql");
+    flyway.migrate();
+    SpringApplication.run(Application.class, args);
+  }
 }

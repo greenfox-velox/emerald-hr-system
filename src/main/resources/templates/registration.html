@@ -80,9 +80,9 @@ input::-webkit-input-placeholder {
             <div class="cols-sm-10">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                    <input type="text" class="form-control" th:field="*{email}" name="email" id="email"  placeholder="Enter your Email address"/>
+                    <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email address"/>
                 </div>
-                <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Enter a valid email address</p>
+                <p class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Enter a valid email address</p>
             </div>
         </div>
         <div class="form-group">
@@ -90,9 +90,9 @@ input::-webkit-input-placeholder {
             <div class="cols-sm-10">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                    <input type="text" class="form-control" th:field="*{userName}" name="username" id="username"  placeholder="Enter your Username"/>
+                    <input type="text" class="form-control"  name="username" id="username"  placeholder="Enter your Username"/>
                 </div>
-                <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Username Error</p>
+                <p class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Username Error</p>
             </div>
         </div>
         <div class="form-group">
@@ -100,9 +100,9 @@ input::-webkit-input-placeholder {
             <div class="cols-sm-10">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                    <input type="password" class="form-control" th:field="*{password}" name="password" id="password"  placeholder="Enter your Password"/>
+                    <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
                 </div>
-                <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('password')}" th:errors="*{password}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Error</p>
+                <p class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Error</p>
             </div>
         </div>
         <div class="form-group">
@@ -110,10 +110,10 @@ input::-webkit-input-placeholder {
             <div class="cols-sm-10">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                    <input type="password" class="form-control" th:field="*{passwordConfirm}" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+                    <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
                 </div>
-                <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('passwordConfirm')}" th:errors="*{passwordConfirm}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Confirm Error</p>
-            </div>
+                <p class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Confirm Error</p>
+        </div>
         </div>
         <div class="form-group ">
             <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Register</button>

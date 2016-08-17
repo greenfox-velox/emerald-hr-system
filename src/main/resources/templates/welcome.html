@@ -4,7 +4,7 @@
     <title>Welcome!</title>
 </head>
 <body>
-<h1 th:inline="text">Hello [[${User.getUserName()}]]!</h1>
+<h1 th:inline="text">Hello [[${User.userName}]]!</h1>
 <form th:action="@{/login}" method="post">
     <input type="submit" value="Sign Out" href="login.html"/>
 </form>

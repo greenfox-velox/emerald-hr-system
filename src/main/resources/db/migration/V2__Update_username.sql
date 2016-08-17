@@ -1,0 +1,2 @@
+ALTER TABLE `HRSYSTEM`.`User`
+CHANGE COLUMN `name` `username` CHAR(30) NOT NULL ;

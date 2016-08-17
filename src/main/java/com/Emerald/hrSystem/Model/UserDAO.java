@@ -6,7 +6,7 @@ public interface UserDAO {
 
   public void saveOrUpdate(User user);
 
-  public void delete(int id);
+  public String delete(int id);
 
   public User get(int id);
 
