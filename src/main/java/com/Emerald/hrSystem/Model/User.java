@@ -19,11 +19,11 @@ public class User {
   private String email;
 
   @NotEmpty (message = "Please enter your username")
-  @Size (min = 8, max = 15, message = "Your password must be between 6 and 15 characters")
+  @Size (min = 6, max = 15, message = "Your password must be between 6 and 15 characters")
   private String password;
 
   @NotEmpty (message = "Please enter your username")
-  @Size (min = 8, max = 15, message = "Your password must be between 6 and 15 characters")
+  @Size (min = 6, max = 15, message = "Your password must be between 6 and 15 characters")
   private String passwordConfirm;
 
   public User() {}
@@ -37,7 +37,7 @@ public class User {
     return username;
   }
 
-  public void setUserName(String userName) {
+  public void setUserName(String username) {
     this.username = username;
   }
 
@@ -82,7 +82,7 @@ public class User {
     this.password = password;
   }
 
-  public boolean isPasswordValid(User loginUser) {
-    return this.password.equals(loginUser.getPassword());
+  public boolean isPasswordValid() {
+    return this.getPassword().equals(this.getPasswordConfirm());
   }
 }

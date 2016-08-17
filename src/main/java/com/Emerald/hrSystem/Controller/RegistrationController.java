@@ -10,6 +10,7 @@ import com.Emerald.hrSystem.Model.UserDAO;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import com.Emerald.hrSystem.Validation.Validation;
 
 @Controller
 @RequestMapping("/registration")
@@ -17,6 +18,7 @@ public class RegistrationController {
 
   @Autowired
   private UserDAO userDAO;
+  private Validation validation = new Validation();
 
   @RequestMapping(value = "", method = RequestMethod.GET)
   public ModelAndView registration() {
@@ -26,11 +28,16 @@ public class RegistrationController {
     return modelAndView;
   }
 
-  @RequestMapping(value = "", method = RequestMethod.POST)
-  public ModelAndView registration(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
+  @RequestMapping(value="", method=RequestMethod.POST)
+  public ModelAndView registrationPost(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
     ModelAndView modelAndView = new ModelAndView();
-    modelAndView.setViewName("welcome");
-    userDAO.saveOrUpdate(newUser);
+    if (false) {
+      modelAndView.setViewName("registration");
+    } else {
+      userDAO.saveOrUpdate(newUser);
+      modelAndView.setViewName("successfulRegistration");
+    }
     return modelAndView;
   }
 }
+

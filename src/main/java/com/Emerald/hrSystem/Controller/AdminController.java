@@ -18,8 +18,8 @@ import java.io.IOException;
 public class AdminController {
 
   @Autowired
-
   private UserDAO userDAO;
+
   @RequestMapping(value="/users", method = RequestMethod.GET)
   public String listUsers(Model model) throws IOException {
     model.addAttribute("userDb", userDAO.list());
