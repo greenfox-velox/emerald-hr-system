@@ -30,15 +30,15 @@ public class UserDAOImpl implements UserDAO{
       logger.debug("updating existing User with Id: " + user.getId());
 
       String sql = "UPDATE User SET username=?, email=?, password=? WHERE id=?";
-      jdbcTemplate.update(sql, user.getUserName(), user.getEmail(),
+      jdbcTemplate.update(sql, user.getUsername(), user.getEmail(),
           user.getPassword(), user.getId());
     } else {
 
-      logger.debug("saving User with username: " + user.getUserName());
+      logger.debug("saving User with username: " + user.getUsername());
 
       String sql = "INSERT INTO User (username, email, password)"
           + " VALUES (?, ?, ?)";
-      jdbcTemplate.update(sql, user.getUserName(), user.getEmail(),
+      jdbcTemplate.update(sql, user.getUsername(), user.getEmail(),
           user.getPassword());
     }
   }
@@ -59,10 +59,10 @@ public class UserDAOImpl implements UserDAO{
       public User mapRow(ResultSet rs, int rowNum) throws SQLException {
         User aUser = new User();
         aUser.setId(rs.getInt("id"));
-        aUser.setUserName(rs.getString("username"));
+        aUser.setUsername(rs.getString("username"));
         aUser.setEmail(rs.getString("email"));
         aUser.setPassword(rs.getString("password"));
-        logger.info(aUser.getUserName() + " found!");
+        logger.info(aUser.getUsername() + " found!");
         return aUser;
       }
     });
@@ -80,7 +80,7 @@ public class UserDAOImpl implements UserDAO{
         if (rs.next()) {
           User user = new User();
           user.setId(rs.getInt("id"));
-          user.setUserName(rs.getString("username"));
+          user.setUsername(rs.getString("username"));
           user.setEmail(rs.getString("email"));
           user.setPassword(rs.getString("password"));
           return user;
