@@ -31,11 +31,10 @@ public class RegistrationController {
   @RequestMapping(value="", method=RequestMethod.POST)
   public ModelAndView registrationPost(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
     ModelAndView modelAndView = new ModelAndView();
-    if (false) {
-      modelAndView.setViewName("registration");
-    } else {
-      userDAO.saveOrUpdate(newUser);
+    if (validation.newUserIsValid(newUser, userDAO)) {
       modelAndView.setViewName("successfulRegistration");
+    } else {
+      modelAndView.setViewName("registration");
     }
     return modelAndView;
   }

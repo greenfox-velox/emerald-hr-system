@@ -44,32 +44,25 @@ public class UserDAOImpl implements UserDAO{
   }
 
   public String delete(int id) {
-
     logger.debug("deleting User from db with id: " + id + "------------  delete() executed!");
-
     String sql = "DELETE FROM User WHERE id=?";
     jdbcTemplate.update(sql, id);
     return "Deleted user with id: " + id;
   }
 
   public List<User> list() {
-
     logger.debug("getting Users from db ------------  list() executed!");
-
     String sql = "SELECT * FROM User";
     List<User> userList = jdbcTemplate.query(sql, new RowMapper<User>() {
 
       @Override
       public User mapRow(ResultSet rs, int rowNum) throws SQLException {
         User aUser = new User();
-
         aUser.setId(rs.getInt("id"));
         aUser.setUserName(rs.getString("username"));
         aUser.setEmail(rs.getString("email"));
         aUser.setPassword(rs.getString("password"));
-
         logger.info(aUser.getUserName() + " found!");
-
         return aUser;
       }
     });
@@ -77,9 +70,7 @@ public class UserDAOImpl implements UserDAO{
   }
 
   public User get(int id) {
-
     logger.debug("query existing User with Id: " + id);
-
     String sql = "SELECT * FROM User WHERE id=" + id;
     return jdbcTemplate.query(sql, new ResultSetExtractor<User>() {
 

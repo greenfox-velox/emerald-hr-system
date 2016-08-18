@@ -1,4 +1,4 @@
-import com.Emerald.hrSystem.fsfsf;
+import com.Emerald.hrSystem.oldController;
 import com.Emerald.hrSystem.Model.User;
 import com.Emerald.hrSystem.Model.UserDAO;
 import org.junit.Before;
@@ -32,7 +32,7 @@ public class ControllerTest {
 
 
   @InjectMocks
-  private fsfsf controller;
+  private oldController controller;
 
   private MockMvc mockMvc;
 
@@ -83,7 +83,6 @@ public class ControllerTest {
     mockMvc.perform(post("/delete/1"))
         .andExpect(status().is(201))
         .andExpect(content().string("Deleted!"));
-
   }
 
   @Test
