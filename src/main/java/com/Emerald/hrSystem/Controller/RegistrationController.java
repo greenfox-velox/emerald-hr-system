@@ -29,12 +29,13 @@ public class RegistrationController {
   }
 
   @RequestMapping(value="", method=RequestMethod.POST)
-  public ModelAndView registrationPost(@Valid @ModelAttribute("newUser") User newUser, BindingResult bindingResult) {
+  public ModelAndView registrationPost(@Valid @ModelAttribute("newUser") User newUser, BindingResult result) {
     ModelAndView modelAndView = new ModelAndView();
-    if (validation.newUserIsValid(newUser, userDAO)) {
-      modelAndView.setViewName("successfulRegistration");
-    } else {
+    validation.validate(newUser,result, userDAO);
+    if (result.hasErrors()) {
       modelAndView.setViewName("registration");
+    } else {
+      modelAndView.setViewName("successfulRegistration");
     }
     return modelAndView;
   }
