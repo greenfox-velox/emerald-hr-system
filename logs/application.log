@@ -6070,3 +6070,7 @@
 2016-08-19 12:15:47 INFO  UserDAOImpl:65 - user found!
 2016-08-19 12:17:04 INFO  UserDAOImpl:65 - admin found!
 2016-08-19 12:17:04 INFO  UserDAOImpl:65 - user found!
+2016-08-19 14:39:33 INFO  UserDAOImpl:65 - admin found!
+2016-08-19 14:39:33 INFO  UserDAOImpl:65 - user found!
+2016-08-19 14:40:32 INFO  UserDAOImpl:65 - admin found!
+2016-08-19 14:40:32 INFO  UserDAOImpl:65 - user found!

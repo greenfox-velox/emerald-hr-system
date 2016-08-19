@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="../css/user.css" type="text/css" />
+</head>
+<body>
+ <aside>
+    <p>Admin</p>
+ </aside>
+    <main>
+      <h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]], you are in!</h1>
+      <form th:action="@{/login}" method="post">
+         <input type="submit" value="Sign Out" href="login.html"/>
+      </form>
+    </main>
+ </body>
+</html>
