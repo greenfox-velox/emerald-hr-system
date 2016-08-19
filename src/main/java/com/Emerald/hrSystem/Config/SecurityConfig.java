@@ -8,7 +8,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import javax.sql.DataSource;
 
-
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
@@ -35,7 +34,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
           .failureUrl("/login?error")
           .usernameParameter("username")
           .passwordParameter("password")
-          .defaultSuccessUrl("/admin",true).permitAll()
+          .defaultSuccessUrl("/login/default",true).permitAll()
           .and().logout()
           .logoutSuccessUrl("/login")
           .and().csrf();

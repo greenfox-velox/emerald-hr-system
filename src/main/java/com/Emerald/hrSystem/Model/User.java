@@ -8,6 +8,7 @@ import javax.validation.constraints.NotNull;
 
 public class User {
   private int id;
+  private String role;
 
   @NotNull
   @NotEmpty (message = "Please enter your username")
@@ -41,11 +42,13 @@ public class User {
     this.username = username;
   }
 
-  public User(int id, String username, String email, String password) {
+  public User(int id, String username, String email, String password,String role) {
     this.id = id;
     this.username = username;
     this.email = email;
     this.password = password;
+    this.role = role;
+
   }
 
   public int getId() {
@@ -84,5 +87,9 @@ public class User {
 
   public boolean isPasswordValid() {
     return this.getPassword().equals(this.getPasswordConfirm());
+  }
+
+  public String getRole() {
+    return this.role;
   }
 }

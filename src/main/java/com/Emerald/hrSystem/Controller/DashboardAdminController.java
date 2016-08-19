@@ -15,7 +15,7 @@ import java.io.IOException;
 
 @Controller
 @RequestMapping("admin")
-public class AdminController {
+public class DashboardAdminController {
 
   @Autowired
   private UserDAO userDAO;

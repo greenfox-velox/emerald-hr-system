@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping("/admin")
-public class DashboardController {
+@RequestMapping("/welcome")
+public class DashboardUserController {
 
   @RequestMapping(value = "")
   public ModelAndView dashboard() {
     ModelAndView modelAndView = new ModelAndView();
-    modelAndView.setViewName("admin");
+    modelAndView.setViewName("welcome");
     return modelAndView;
   }
 }
