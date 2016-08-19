@@ -18,7 +18,12 @@ import javax.servlet.http.HttpServletRequest;
     }
     @RequestMapping(value = "/default", method = RequestMethod.GET)
     public ModelAndView successFulLogin(HttpServletRequest request) {
+      System.out.println(request.isUserInRole("admin"));
+      System.out.println(request.isUserInRole("ADMIN"));
+      System.out.println(request.isUserInRole("USER"));
+      System.out.println(request.isUserInRole("user"));
       System.out.println(request.getUserPrincipal());
+      System.out.println(request.getParameterMap());
       ModelAndView modelAndView = new ModelAndView();
       if (request.isUserInRole("ADMIN")) {
         modelAndView.setViewName("admin");
