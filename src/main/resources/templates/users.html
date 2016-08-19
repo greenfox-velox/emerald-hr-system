@@ -1,25 +1,26 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
-        <title>Getting Started: Handling Form Submission</title>
+        <title>Users</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/style.css" type="text/css" />
     </head>
     <body>
-    <h1>Result</h1>
-
-    <table width="50%">
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Password</th>
-        </tr>
-        <tr th:each="user : ${userDb}">
-                <td th:text="${user.id}">Id</td>
-                <td th:text="${user.getUserName}">Name</td>
-                <td th:text="${user.email}">Email</td>
-                <td th:text="${user.password}">Password</td>
-        </tr>
-    </table>
+        <h1>Result</h1>
+        <table width="80%">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+            <tr th:each="user : ${userDb}">
+                    <td th:text="${user.id}">Id</td>
+                    <td th:text="${user.username}">Name</td>
+                    <td th:text="${user.email}">Email</td>
+                    <td th:text="${user.password}">Password</td>
+            </tr>
+        </table>
     </body>
 </html>
