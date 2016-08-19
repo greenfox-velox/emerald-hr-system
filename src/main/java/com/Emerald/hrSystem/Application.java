@@ -8,7 +8,7 @@ import org.springframework.boot.SpringApplication;
 public class Application {
   public static void main(String[] args) throws Throwable {
     Flyway flyway = new Flyway();
-    flyway.setDataSource("jdbc:mysql://localhost:3306/HRSYSTEM","root","sql");
+    flyway.setDataSource("jdbc:mysql://localhost:3306/HRSYSTEM","root","Pocok07");
     flyway.migrate();
     SpringApplication.run(Application.class, args);
   }

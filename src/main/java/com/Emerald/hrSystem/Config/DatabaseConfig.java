@@ -16,7 +16,7 @@ public class DatabaseConfig{
     dataSource.setDriverClassName("com.mysql.jdbc.Driver");
     dataSource.setUrl("jdbc:mysql://localhost:3306/HRSYSTEM");
     dataSource.setUsername("root");
-    dataSource.setPassword("sql");
+    dataSource.setPassword("Pocok07");
     return dataSource;
   }
   @Bean
