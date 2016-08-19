@@ -1,6 +1,6 @@
 package com.Emerald.hrSystem.Controller;
 
-import com.Emerald.hrSystem.Model.UserDAO;
+import com.Emerald.hrSystem.DAOs.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

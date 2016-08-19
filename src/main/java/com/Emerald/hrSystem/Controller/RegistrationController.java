@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import javax.validation.Valid;
 import com.Emerald.hrSystem.Model.User;
-import com.Emerald.hrSystem.Model.UserDAO;
+import com.Emerald.hrSystem.DAOs.UserDAO;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;

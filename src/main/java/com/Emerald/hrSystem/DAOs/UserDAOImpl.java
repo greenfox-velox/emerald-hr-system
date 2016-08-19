@@ -1,5 +1,6 @@
-package com.Emerald.hrSystem.Model;
+package com.Emerald.hrSystem.DAOs;
 
+import com.Emerald.hrSystem.Model.User;
 import org.apache.log4j.Logger;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -71,8 +72,8 @@ public class UserDAOImpl implements UserDAO{
 
   public User get(int id) {
     logger.debug("query existing User with Id: " + id);
-    String sql = "SELECT * FROM User WHERE id=" + id;
-    return jdbcTemplate.query(sql, new ResultSetExtractor<User>() {
+    String sql = "SELECT * FROM User WHERE id= ?";
+    return jdbcTemplate.query(sql, new Object[] {id}, new ResultSetExtractor<User>() {
 
       @Override
       public User extractData(ResultSet rs) throws SQLException,
@@ -88,6 +89,17 @@ public class UserDAOImpl implements UserDAO{
         return null;
       }
     });
+  }
+
+  @Override
+  public String deleteByName(String name) {
+
+    logger.debug("query User with name: " + name);
+    String sql = "DELETE FROM User WHERE username = ?";
+    jdbcTemplate.update(sql, name);
+    logger.debug("deleted User with name: " + name);
+    return "User deleted";
+
   }
 
 }

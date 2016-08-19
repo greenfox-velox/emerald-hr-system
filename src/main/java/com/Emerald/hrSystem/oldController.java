@@ -1,20 +1,3 @@
-
-
-import com.Emerald.hrSystem.Model.User;
-import com.Emerald.hrSystem.Model.UserDAO;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
-import org.apache.log4j.Logger;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.validation.Valid;
-import java.io.IOException;
 //
 //  public class fsfsf {
 //
