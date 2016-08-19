@@ -1,0 +1,2 @@
+ALTER TABLE `HRSYSTEM`.`Questions`
+CHANGE COLUMN `name` `title` CHAR(30) NOT NULL ;
