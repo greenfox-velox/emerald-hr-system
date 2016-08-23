@@ -6,60 +6,65 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <link rel="stylesheet" href="../css/style.css" type="text/css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
-        <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css' />
-        <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css' />
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />-->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet" />
     </head>
     <body>
+    <header>
+        <div class="epam-interviewer-header">
+            <img src="../img/epam-logo.png" />
+            <h3 class="header-title">INTERVIEWER</h3>
+        </div>
+    </header>
     <div class="main-login main-center">
         <form class="form-horizontal" th:action="@{/registration}" th:object="${newUser}" method="post" action="#">
-            <h2 class="form-signin-heading">Please register a new account</h2>
+            <!--<h2 class="form-signin-heading">Please register a new account</h2>-->
             <div class="form-group">
-                <label for="email" class="cols-sm-2 control-label">Email address</label>
+                <!--<label for="email" class="cols-sm-2 control-label">Email address</label>-->
                 <div class="cols-sm-10">
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-                        <input th:field="*{email}" type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email address"/>
+                        <!--<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>-->
+                        <input th:field="*{email}" type="text" class="form-control" name="email" id="email"  placeholder="Type your Email address"/>
                     </div>
                     <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true">Email Error</span></p>
                 </div>
             </div>
             <div class="form-group">
-                <label for="username" class="cols-sm-2 control-label">Username</label>
+                <!--<label for="username" class="cols-sm-2 control-label">Username</label>-->
                 <div class="cols-sm-10">
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                        <input th:field="*{username}" type="text" class="form-control"  name="username" id="username"  placeholder="Enter your Username"/>
+                        <!--<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>-->
+                        <input th:field="*{username}" type="text" class="form-control"  name="username" id="username"  placeholder="Type your Username"/>
                     </div>
                     <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('username')}" th:errors="*{username}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Username Error</p>
                 </div>
             </div>
             <div class="form-group">
-                <label for="password" class="cols-sm-2 control-label">Password</label>
+                <!--<label for="password" class="cols-sm-2 control-label">Password</label>-->
                 <div class="cols-sm-10">
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                        <input th:field="*{password}" type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+                        <!--<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>-->
+                        <input th:field="*{password}" type="password" class="form-control" name="password" id="password"  placeholder="Type your Password"/>
                     </div>
                     <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('password')}" th:errors="*{password}" ><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Error</p>
                 </div>
             </div>
             <div class="form-group">
-                <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                <!--<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>-->
                 <div class="cols-sm-10">
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                        <!--<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>-->
                         <input th:field="*{passwordConfirm}" type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
                     </div>
                     <p class="alert alert-danger" role="alert" th:if="${#fields.hasErrors('passwordConfirm')}" th:errors="*{passwordConfirm}"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>Password Confirm Error</p>
                 </div>
             </div>
             <div class="form-group ">
-                <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+                <button type="submit" class="btn btn-primary btn-lg btn-block login-button">REGISTER</button>
             </div>
         </form>
         <div class="login-register">
-            <a href="login.html">Login</a>
+            <a href="login.html">Log in</a>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
