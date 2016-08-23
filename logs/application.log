@@ -6058,6 +6058,9 @@
 2016-08-18 14:29:04 INFO  UserDAOImpl:65 - Anna found!
 2016-08-18 14:29:04 INFO  UserDAOImpl:65 - Anna2010 found!
 2016-08-19 10:34:58 INFO  UserDAOImpl:65 - admin found!
+<<<<<<< HEAD
+2016-08-19 12:03:19 INFO  UserDAOImpl:65 - admin1 found!
+=======
 2016-08-19 12:07:33 INFO  UserDAOImpl:65 - admin found!
 2016-08-19 12:07:33 INFO  UserDAOImpl:65 - user found!
 2016-08-19 12:10:49 INFO  UserDAOImpl:65 - admin found!
@@ -6070,7 +6073,83 @@
 2016-08-19 12:15:47 INFO  UserDAOImpl:65 - user found!
 2016-08-19 12:17:04 INFO  UserDAOImpl:65 - admin found!
 2016-08-19 12:17:04 INFO  UserDAOImpl:65 - user found!
+<<<<<<< HEAD
 2016-08-19 14:39:33 INFO  UserDAOImpl:65 - admin found!
 2016-08-19 14:39:33 INFO  UserDAOImpl:65 - user found!
 2016-08-19 14:40:32 INFO  UserDAOImpl:65 - admin found!
 2016-08-19 14:40:32 INFO  UserDAOImpl:65 - user found!
+=======
+>>>>>>> 02d8a6d4c4e24e1f87c2f47b3d44fd7a3a899202
+2016-08-19 13:47:44 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 13:51:11 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 13:51:11 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 13:51:35 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 13:51:35 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 13:54:50 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 13:54:50 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 13:54:50 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 13:55:22 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 13:55:22 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 13:55:22 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:01:41 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:01:41 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:01:41 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:01:41 INFO  UserDAOImpl:65 - SeleniumTest found!
+2016-08-19 14:01:59 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:01:59 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:01:59 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:01:59 INFO  UserDAOImpl:65 - SeleniumTest found!
+2016-08-19 14:02:42 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:02:42 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:02:42 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:02:42 INFO  UserDAOImpl:65 - SeleniumTest found!
+2016-08-19 14:18:32 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:18:32 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:18:32 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:19:37 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:19:37 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:19:37 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:23:35 INFO  Version:30 - HV000001: Hibernate Validator 5.2.4.Final
+2016-08-19 14:24:08 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:24:08 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:24:08 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:24:08 INFO  UserDAOImpl:65 - SeleniumTest found!
+2016-08-19 14:25:21 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:25:21 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:25:21 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:25:21 INFO  UserDAOImpl:65 - SeleniumTest found!
+2016-08-19 14:27:18 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:27:18 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:27:18 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:30:09 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:30:09 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:30:09 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:36:12 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:36:12 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:36:12 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:39:26 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:39:26 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:39:26 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:40:23 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:40:23 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:40:23 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:50:37 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:50:37 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:50:37 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:50:37 INFO  UserDAOImpl:65 - SeleniumTest found!
+2016-08-19 14:54:20 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:54:20 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:54:20 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 14:54:20 INFO  UserDAOImpl:65 - SeleniumTest found!
+2016-08-19 14:54:54 INFO  UserDAOImpl:65 - admin1 found!
+2016-08-19 14:54:54 INFO  UserDAOImpl:65 - test1 found!
+2016-08-19 14:54:54 INFO  UserDAOImpl:65 - test111 found!
+>>>>>>> 87555587d3bd9979f809f9d06abb5a71fbee771f
+2016-08-19 16:42:49 INFO  UserDAOImpl:66 - admin found!
+2016-08-19 16:42:49 INFO  UserDAOImpl:66 - user found!
+2016-08-19 16:43:04 INFO  UserDAOImpl:66 - admin found!
+2016-08-19 16:43:04 INFO  UserDAOImpl:66 - user found!
+2016-08-19 16:43:04 INFO  UserDAOImpl:66 - macska found!
+2016-08-19 16:43:19 INFO  UserDAOImpl:66 - admin found!
+2016-08-19 16:43:19 INFO  UserDAOImpl:66 - user found!
+2016-08-19 16:43:19 INFO  UserDAOImpl:66 - macska found!

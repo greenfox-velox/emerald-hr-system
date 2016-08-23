@@ -1,10 +1,11 @@
 package com.Emerald.hrSystem.Validation;
-import com.Emerald.hrSystem.Model.User;
-import com.Emerald.hrSystem.Model.UserDAO;
+
+import com.Emerald.hrSystem.Model.User;;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
+import com.Emerald.hrSystem.DAOs.UserDAO;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 
@@ -13,7 +14,7 @@ import java.util.List;
 public class Validation {
 
   public void validate (User newUser, BindingResult result, UserDAO userDAO ) {
-    List<User> list =userDAO.list();
+    List<User> list = userDAO.list();
     if (!this.isUserNameFree(newUser,list)){
       FieldError error = new FieldError("user","username","This username is occupied!");
       result.addError(error);

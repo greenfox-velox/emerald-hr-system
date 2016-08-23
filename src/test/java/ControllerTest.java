@@ -1,6 +1,7 @@
-import com.Emerald.hrSystem.oldController;
+
+import com.Emerald.hrSystem.Controller.LoginController;
+import com.Emerald.hrSystem.DAOs.UserDAO;
 import com.Emerald.hrSystem.Model.User;
-import com.Emerald.hrSystem.Model.UserDAO;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
@@ -12,19 +13,14 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static org.hamcrest.Matchers.*;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-/**
- * Created by pocok on 8/14/16.
- */
 public class ControllerTest {
 
   @Mock
@@ -32,8 +28,7 @@ public class ControllerTest {
 
 
   @InjectMocks
-  private oldController controller;
-
+  private LoginController controller;
   private MockMvc mockMvc;
 
 
@@ -105,6 +100,4 @@ public class ControllerTest {
         .andExpect(view().name("welcome"));
 
   }
-
-
 }
