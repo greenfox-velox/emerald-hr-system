@@ -15,12 +15,12 @@
     </div>
     <div class="navi">
         <ul>
-            <li class="active"><a href="#">templates</a></li>
+            <li class="active"><a href="/admin/users">templates</a></li>
             <li class="active"><a href="#">questions</a></li>
-            <li class="active"><a href="#">users</a></li>
-            <li class="logout">
-                <a href="login.html">
-                    <form th:action="@{/login}" method="post">
+            <li class="active"><a href="/admin/users">users</a></li>
+            <li class="logout active">
+                <a href="login">
+                    <form th:action="@{/login}" method="get">
                         <input type="submit" value="logout"/>
                     </form>
                 </a>
@@ -29,7 +29,7 @@
     </div>
 </header>
 <div class="welcome-user">
-    <h1 th:inline="text">[[${#httpServletRequest.remoteUser}]],</h1>
+    <h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]], you are in!</h1>
     <h2>WELCOME ADMIN USER!</h2>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -38,23 +38,3 @@
 </body>
 </html>
 
-
-<!--<!DOCTYPE html>-->
-<!--<html xmlns:th="http://www.thymeleaf.org">-->
-<!--<head>-->
-    <!--<title>Welcome!</title>-->
-    <!--<link rel="stylesheet" href="../css/user.css" type="text/css" />-->
-    <!--<link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">-->
-<!--</head>-->
-<!--<body>-->
- <!--<aside>-->
-    <!--<p>Admin</p>-->
- <!--</aside>-->
-    <!--<main>-->
-      <!--<h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]], you are in!</h1>-->
-      <!--<form th:action="@{/login}" method="post">-->
-         <!--<input type="submit" value="Sign Out" href="login.html"/>-->
-      <!--</form>-->
-    <!--</main>-->
- <!--</body>-->
-<!--</html>-->

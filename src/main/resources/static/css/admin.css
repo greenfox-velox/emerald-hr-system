@@ -93,3 +93,30 @@ a {
     margin-top: 90px;
     margin-left: 180px;
 }
+
+.user-background {
+    background-color:white;
+}
+
+.user-table {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+tr {
+    text-align: center;
+     margin-top: 40px;
+}
+
+th {
+    font-size: 22px;
+    border-bottom : 1px solid black;
+    text-align: center;
+}
+
+td {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}

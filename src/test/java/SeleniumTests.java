@@ -19,13 +19,10 @@ public class SeleniumTests {
   private String testUserName = "SeleniumTest";
   private String testPassword = "12341234";
 
-
   @Before
   public void setUp(){
-    System.setProperty("webdriver.chrome.driver","/Users/zsolti/Desktop/chromedriver");
     driver = new ChromeDriver();
   }
-
 
   @Test
   public void test_userCanRegister() {
@@ -42,14 +39,13 @@ public class SeleniumTests {
     driver.findElement(By.className("login-button")).click();
     driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
 
-    assertEquals("Successful Registration!", driver.findElement(By.tagName("h3")).getText());
+    assertEquals("INTERVIEWER", driver.findElement(By.tagName("h3")).getText());
     assertEquals(defaultRegistrationUrl, driver.getCurrentUrl());
   }
 
-
   @Test
   public void test_SignInRedirectsCorrectlyToWelcomePage() {
-    String defaultLoginUrl = "http://localhost:8080/login/default";
+    String defaultLoginUrl = "http://localhost:8080/user";
     driver.get("http://localhost:8080/login");
     WebElement nameField = driver.findElement(By.id("username"));
     WebElement passwordField = driver.findElement(By.id("password"));
@@ -58,11 +54,10 @@ public class SeleniumTests {
     driver.findElement(By.className("login-button")).click();
     driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
 
-    assertEquals("Welcome!", driver.getTitle());
+    assertEquals("Dashboard", driver.getTitle());
     assertEquals(defaultLoginUrl, driver.getCurrentUrl());
     assertEquals("Hello " + testUserName + ", you are in!", driver.findElement(By.tagName("h1")).getText());
   }
-
 
   @After
   public void cleanUp(){
@@ -71,6 +66,4 @@ public class SeleniumTests {
       driver.quit();
     }
   }
-
-
 }

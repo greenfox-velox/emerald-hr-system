@@ -31,12 +31,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
       .and()
       .formLogin()
         .loginPage("/login")
-          .failureUrl("/login?error")
-          .usernameParameter("username")
-          .passwordParameter("password")
-          .defaultSuccessUrl("/login/default",true).permitAll()
-          .and().logout()
-          .logoutSuccessUrl("/login")
-          .and().csrf();
+        .failureUrl("/login?error")
+        .usernameParameter("username")
+        .passwordParameter("password")
+        .defaultSuccessUrl("/login/default",true).permitAll()
+      .and()
+        .logout()
+        .logoutSuccessUrl("/login?logout")
+        .and().csrf();
   }
 }
