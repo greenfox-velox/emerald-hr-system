@@ -6138,3 +6138,10 @@
 2016-08-19 14:54:54 INFO  UserDAOImpl:65 - admin1 found!
 2016-08-19 14:54:54 INFO  UserDAOImpl:65 - test1 found!
 2016-08-19 14:54:54 INFO  UserDAOImpl:65 - test111 found!
+2016-08-19 16:50:10 INFO  UserDAOImpl:66 - admin1 found!
+2016-08-19 16:50:10 INFO  UserDAOImpl:66 - test1 found!
+2016-08-19 16:50:10 INFO  UserDAOImpl:66 - test111 found!
+2016-08-19 16:50:10 INFO  UserDAOImpl:66 - SeleniumTest found!
+2016-08-19 16:51:24 INFO  UserDAOImpl:66 - admin1 found!
+2016-08-19 16:51:24 INFO  UserDAOImpl:66 - test1 found!
+2016-08-19 16:51:24 INFO  UserDAOImpl:66 - test111 found!
