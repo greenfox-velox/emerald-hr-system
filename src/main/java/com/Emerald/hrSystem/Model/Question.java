@@ -33,4 +33,9 @@ public class Question {
   public void setTitle(String title) {
     this.title = title;
   }
+
+  public String toString() {
+    return String.format("Id: %d, Title: %s", getId(), getTitle());
+  }
+
 }

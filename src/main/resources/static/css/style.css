@@ -1,23 +1,23 @@
 body, html{
-     height: 100%;
+    height: 100%;
     background-repeat: no-repeat;
-    background-color: #d3d3d3;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .main{
     margin-top: 70px;
 }
 h1.title {
     font-size: 50px;
-    font-family: 'Passion One', cursive;
     font-weight: 400;
+    color: #4A4A4A;
 }
 .h2 h2 {
     margin-bottom: 40px;
 }
 
 .h3, h3 {
-    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
     text-align: center;
     margin: 20px;
 }
@@ -40,13 +40,13 @@ input::-webkit-input-placeholder {
 }
 .main-login{
     background-color: #fff;
-    /* shadows and rounded borders */
+    /* shadows and rounded borders
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */
 }
 .main-center{
     margin-top: 30px;
@@ -55,12 +55,59 @@ input::-webkit-input-placeholder {
     padding: 15px 40px;
 }
 .login-button{
+    width: 30%;
+    height: 50px;
     margin-top: 5px;
+    background: #39C2D7;
+}
+
+.login-button:hover {
+    background: #39C2D7;
 }
 .login-register{
-    font-size: 11px;
+    font-size: 14px;
     text-align: center;
+    color: #39C2D7;
 }
 .alert-danger {
     margin-top: 20px;
+}
+
+.epam-interviewer-header {
+    height: 80px;
+    display: flex;
+    background: #E6E6E6;
+    border-bottom: 1px solid black;
+    }
+
+.epam-interviewer-header img {
+    width: 15%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #39C2D7;
+    border: none;
+    margin-left: 160px;
+    height: 50px;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: #39C2D7;
+    border-radius: 3px;
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+
+}
+
+a {
+    color: #39C2D7;
+    text-decoration: none;
+}
+
+.header-title {
+    margin-top: 25px;
 }

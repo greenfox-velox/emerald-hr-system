@@ -1,15 +1,17 @@
 package com.Emerald.hrSystem.Controller;
 
+import com.Emerald.hrSystem.Validation.Validation;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-import javax.servlet.http.HttpServletRequest;
 
 @Controller
   @RequestMapping("/login")
-
   public class LoginController {
+
+    private Validation validation = new Validation();
+
     @RequestMapping(value = "", method = RequestMethod.GET)
     public ModelAndView login() {
       ModelAndView modelAndView = new ModelAndView();
@@ -17,21 +19,13 @@ import javax.servlet.http.HttpServletRequest;
       return modelAndView;
     }
     @RequestMapping(value = "/default", method = RequestMethod.GET)
-    public ModelAndView successFulLogin(HttpServletRequest request) {
-      System.out.println(request.isUserInRole("admin"));
-      System.out.println(request.isUserInRole("ADMIN"));
-      System.out.println(request.isUserInRole("USER"));
-      System.out.println(request.isUserInRole("user"));
-      System.out.println(request.getUserPrincipal());
-      System.out.println(request.getParameterMap());
-      ModelAndView modelAndView = new ModelAndView();
-      if (request.isUserInRole("ADMIN")) {
-        modelAndView.setViewName("admin");
+    public String successFulLogin() {
+      if (validation.hasRole("ADMIN")) {
+        return "redirect:/admin";
       }
       else {
-        modelAndView.setViewName("welcome");
+        return "redirect:/user";
       }
-      return modelAndView;
     }
 }
 

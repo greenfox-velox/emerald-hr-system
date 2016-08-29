@@ -1,30 +1,46 @@
 package com.Emerald.hrSystem.Controller;
 
+
 import com.Emerald.hrSystem.DAOs.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 import java.io.IOException;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
 
 @Controller
-@RequestMapping("admin")
-public class DashboardAdminController {
+public class Dashboard {
 
   @Autowired
   private UserDAO userDAO;
 
-  @RequestMapping(value="/users", method = RequestMethod.GET)
+  @RequestMapping(value = "/user")
+  public ModelAndView userDashboard() {
+    ModelAndView modelAndView = new ModelAndView();
+    modelAndView.setViewName("userDashboard");
+    return modelAndView;
+  }
+
+  @RequestMapping(value = "/admin")
+  public ModelAndView adminDashboard() {
+    ModelAndView modelAndView = new ModelAndView();
+    modelAndView.setViewName("adminDashboard");
+    return modelAndView;
+  }
+
+  @RequestMapping(value="/admin/users", method = RequestMethod.GET)
   public String listUsers(Model model) throws IOException {
     model.addAttribute("userDb", userDAO.list());
     return "users";
   }
 
-  @RequestMapping(value = "/delete/{id}", method = RequestMethod.POST)
+  @RequestMapping(value = "/admin/delete/{id}", method = RequestMethod.POST)
   public ResponseEntity<String> deleteUser(@PathVariable("id") int id) {
     userDAO.delete(id);
     return new ResponseEntity<>("Deleted!", HttpStatus.CREATED);

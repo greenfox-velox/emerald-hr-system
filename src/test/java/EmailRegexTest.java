@@ -54,7 +54,5 @@ public class EmailRegexTest {
       Matcher matcher = emailPattern.matcher(email);
       assertFalse(matcher.matches());
     }
-
-
   }
 }

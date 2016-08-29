@@ -1,0 +1,122 @@
+body, html{
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+h1.title {
+    font-size: 50px;
+    font-weight: 400;
+}
+.h2 h2 {
+    margin-bottom: 40px;
+}
+
+.h3, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* aside{
+      width:300px;
+      height 2000px;
+      background-color:#286090;
+      color:white;
+      font-size:32px;
+      text-align: center;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: #E6E6E6;
+    border-bottom: 1px solid black;
+}
+
+.epam-interviewer-header {
+    display: flex;
+    }
+
+.epam-interviewer-header img {
+    width: 26.5%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #39C2D7;
+    border: none;
+    margin-left: 160px;
+    height: 50px;
+}
+
+a {
+    color: #39C2D7;
+    text-decoration: none;
+}
+
+.header-title {
+    margin-top: 25px;
+}
+
+.home {
+    background: linear-gradient(
+                     rgba(20,20,20, .6),
+                     rgba(20,20,20, .6)),
+                     url(../img/tram_budapest.jpg);
+    background-size: cover;
+}
+
+.navi li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 30px;
+}
+
+.navi a {
+    color: #4A4A4A;
+}
+
+.logout input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.welcome-user {
+    color: white;
+    margin-top: 90px;
+    margin-left: 180px;
+}
+
+.user-background {
+    background-color:white;
+}
+
+.user-table {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+tr {
+    text-align: center;
+     margin-top: 40px;
+}
+
+th {
+    font-size: 22px;
+    border-bottom : 1px solid black;
+    text-align: center;
+}
+
+td {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}

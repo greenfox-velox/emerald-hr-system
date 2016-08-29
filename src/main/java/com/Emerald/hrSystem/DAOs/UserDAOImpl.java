@@ -63,6 +63,7 @@ public class UserDAOImpl implements UserDAO{
         aUser.setUsername(rs.getString("username"));
         aUser.setEmail(rs.getString("email"));
         aUser.setPassword(rs.getString("password"));
+        aUser.setRole(rs.getString("role"));
         logger.info(aUser.getUsername() + " found!");
         return aUser;
       }
@@ -92,13 +93,12 @@ public class UserDAOImpl implements UserDAO{
   }
 
   @Override
-  public String deleteByName(String name) {
+  public void deleteByName(String name) {
 
     logger.debug("query User with name: " + name);
     String sql = "DELETE FROM User WHERE username = ?";
     jdbcTemplate.update(sql, name);
     logger.debug("deleted User with name: " + name);
-    return "User deleted";
 
   }
 
