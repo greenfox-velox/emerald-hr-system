@@ -3,6 +3,7 @@ package com.Emerald.hrSystem.Model;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.NotNull;
+import java.util.List;
 
 /**
  * Created by pocok on 8/29/16.
@@ -10,6 +11,7 @@ import javax.validation.constraints.NotNull;
 public class Category {
 
   private int id;
+  private List<Question> questionsList;
 
   @NotNull
   @NotEmpty(message = "Please enter a category name")
@@ -36,6 +38,14 @@ public class Category {
 
   public void setName(String name) {
     this.name = name;
+  }
+
+  public List<Question> getQuestionsList() {
+    return questionsList;
+  }
+
+  public void setQuestionsList(List<Question> questionsList) {
+    this.questionsList = questionsList;
   }
 
   @Override

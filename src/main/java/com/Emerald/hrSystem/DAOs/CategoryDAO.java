@@ -3,6 +3,8 @@ package com.Emerald.hrSystem.DAOs;
 import com.Emerald.hrSystem.Model.Category;
 import com.Emerald.hrSystem.Model.Question;
 
+import java.util.Set;
+
 /**
  * Created by pocok on 8/30/16.
  */
@@ -19,5 +21,7 @@ public interface CategoryDAO {
   Category getById(int id);
 
   Category getByName(String name);
+
+  Set<Question> getQuestions();
 
 }
