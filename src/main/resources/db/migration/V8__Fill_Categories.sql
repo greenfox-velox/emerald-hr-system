@@ -1,0 +1,9 @@
+INSERT INTO Categories (name) VALUES ('HTML');
+INSERT INTO Categories (name) VALUES ('CSS');
+INSERT INTO Categories (name) VALUES ('JavaScript');
+INSERT INTO Categories (name) VALUES ('Python');
+INSERT INTO Categories (name) VALUES ('Java');
+INSERT INTO Categories (name) VALUES ('C#');
+INSERT INTO Categories (name) VALUES ('C++');
+INSERT INTO Categories (name) VALUES ('Ruby');
+INSERT INTO Categories (name) VALUES ('PHP');
